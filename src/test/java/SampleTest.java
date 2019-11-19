@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
  */
 public class SampleTest {
 
-    @Test
+    @Test(invocationCount = 100)
     public void sample(){
         System.out.println("Browser opened");
         WebDriver firefox = DriverFactory.createDriver("Firefox");
