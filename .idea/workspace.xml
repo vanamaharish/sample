@@ -24,7 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01b9af38-3037-4dcf-afb1-7125c1734b3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="109">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,9 +86,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -107,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Browser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/.github/workflows/maven.yml" />
         <option value="$PROJECT_DIR$/src/test/java/SampleTest.java" />
       </list>
     </option>
@@ -163,7 +170,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -205,6 +212,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTest.sample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleTest" />
+      <option name="METHOD_NAME" value="sample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -223,6 +243,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SampleTest.sample" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -236,6 +261,32 @@
       <updated>1574166218532</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 27m 39s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 27m 56s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 28m 12s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 28m 37s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 29m 06s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 29m 21s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 30m 26s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleTest_sample - 2019.11.19 at 18h 30m 55s.xml">
+      <configuration name="SampleTest.sample" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1368" height="736" extended-state="6" />
@@ -259,12 +310,12 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.580938" weight="0.609215" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5438729" weight="0.34871796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5438729" visible="true" weight="0.34827587" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5544629" weight="0.40784982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4969651" weight="0.32935154" />
-      <window_info anchor="bottom" id="Messages" internal_type="SLIDING" order="7" sideWeight="0.49092284" type="SLIDING" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" internal_type="SLIDING" order="7" sideWeight="0.49092284" type="SLIDING" weight="0.3275862" />
       <window_info anchor="bottom" id="Gerrit" order="8" sideWeight="0.4969651" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.45612708" side_tool="true" weight="0.34871796" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5226929" weight="0.75" />
@@ -308,18 +359,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="109">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
