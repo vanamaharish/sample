@@ -1,0 +1,12 @@
+.idea/
+*.iml
+uiTests/
+target/
+wmlogs/
+*.workspace.xml
+*.junit.log
+*.classpath
+*.project
+*.logs
+logs/
+*config.properties.local
