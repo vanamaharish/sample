@@ -10,6 +10,8 @@ public class SampleTest {
     @Test
     public void sample(){
         WebDriver firefox = DriverFactory.createDriver("Firefox");
-
+        firefox.get("https://www.google.com");
+        firefox.close();
+        System.out.println("Browser closed");
     }
 }

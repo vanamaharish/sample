@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -23,6 +24,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.Reporter;
+
+import io.github.bonigarcia.wdm.DriverManagerType;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
  * Created by ArjunSahasranam on 2/12/15.
@@ -42,6 +47,27 @@ public class DriverFactory {
     private static final String WEBSOCKET_URLS = "wss://echo.websocket.org/, wss://websocket-demos.wavemakeronline.com/, ws://echo.websocket.org/";
 
     public static synchronized WebDriver createDriver(String browser) {
+
+
+        Reporter.log("Setting driver instance for {} browser."+ browser);
+        final Browser browserType1 = Browser.getBrowserByString(browser);
+        switch (browserType1) {
+            case FIREFOX_JSCOVER:
+            case FIREFOX:
+                WebDriverManager.getInstance(DriverManagerType.FIREFOX).setup();
+                break;
+            case CHROME:
+                WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
+                break;
+            case IE:
+                WebDriverManager.getInstance(DriverManagerType.IEXPLORER).setup();
+                break;
+            case EDGE:
+                WebDriverManager.getInstance(DriverManagerType.EDGE).setup();
+                break;
+            case SAFARI:
+            case REMOTE_WEBDRIVER:
+        }
         WebDriver webDriver = null;
         final Browser browserType = Browser.getBrowserByString(browser);
         switch (browserType) {
@@ -182,7 +208,9 @@ public class DriverFactory {
 
     private static FirefoxOptions getFirefoxOptions(final Browser browser) {
         FirefoxOptions firefoxOptions = new FirefoxOptions(getDesiredCapabilties(browser));
-
+        FirefoxBinary ffBinary = new FirefoxBinary();
+        ffBinary.addCommandLineOptions("--headless");
+        firefoxOptions.setBinary(ffBinary);
         return firefoxOptions;
     }
 
