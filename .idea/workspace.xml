@@ -25,26 +25,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01b9af38-3037-4dcf-afb1-7125c1734b3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SampleTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SampleTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SampleTest/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SampleTest/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SampleTest/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SampleTest/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SampleTest/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SampleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SampleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/SampleTest/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DriverFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DriverFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DriverFactory.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,16 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -157,19 +142,6 @@
               <item name="comsample" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comsample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comsample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +268,7 @@
       <window_info anchor="bottom" id="Gerrit" order="8" sideWeight="0.4969651" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.45612708" side_tool="true" weight="0.34871796" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5226929" weight="0.75" />
-      <window_info anchor="bottom" x="24" y="288" width="1318" height="398" id="Version Control" order="11" sideWeight="0.50907713" weight="0.32649574" />
+      <window_info anchor="bottom" x="24" y="288" width="1318" height="398" id="Version Control" order="11" sideWeight="0.50907713" weight="0.6758621" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Code Outline" />
       <window_info anchor="right" id="JSON Viewer" />
@@ -339,12 +311,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/SampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

@@ -9,6 +9,7 @@ public class SampleTest {
 
     @Test
     public void sample(){
+        System.out.println("Browser opened");
         WebDriver firefox = DriverFactory.createDriver("Firefox");
         firefox.get("https://www.google.com");
         firefox.close();
