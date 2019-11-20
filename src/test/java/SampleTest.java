@@ -11,8 +11,8 @@ public class SampleTest {
     @DataProvider(parallel = true)
     public static Object[][] browser() {
 
-        Object[][] objects = new Object[100][1];
-        for (int i = 0; i < 20; i++) {
+        Object[][] objects = new Object[3][1];
+        for (int i = 0; i < 2; i++) {
             objects[i][0] = "test";
         }
         return objects;
