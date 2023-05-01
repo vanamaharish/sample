@@ -86,7 +86,7 @@
         <json.path.version>2.4.0</json.path.version>
 
         <!--Testng jar-->
-        <testng.version>6.14.3</testng.version>
+        <testng.version>7.7.0</testng.version>
 
         <!--PDFBox  jar-->
         <apache.pdfbox.version>2.0.15</apache.pdfbox.version>
